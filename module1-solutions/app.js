@@ -29,7 +29,7 @@ function LunchCheckController($scope) {
   function removeEmptyString(arrayOfItem) {
     var array = [];
     for(var i=0;i<arrayOfItem.length;i++){
-      if(arrayOfItem[i].length != 0){
+      if(arrayOfItem[i].trim().length != 0){
           array.push(arrayOfItem[i]);
       }
     }
