@@ -31,9 +31,11 @@ function ShoppingListCheckOffService() {
 
   // List items to buy
   var itemsToBuy = [
-    { name: "cookies", quantity: 10 },
-    { name: "energy drinks", quantity: 2 },
-    { name: "chips", quantity: 5 }];
+    { name: "bread", quantity: 1 },
+    { name: "eggs", quantity: 10 },
+    { name: "milk", quantity: 1 },
+    { name: "butter", quantity: 2 },
+    { name: "water", quantity: 1 }];
   var itemsBought = [];
 
   service.boughtItem = function (itemIdex) {
